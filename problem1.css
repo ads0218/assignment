@@ -1,0 +1,27 @@
+li{
+  line-height:1.5em;
+}
+
+.basket {
+
+}
+
+.addWrap, .message {
+  margin-bottom:10px;
+}
+
+input {
+  width : 100px;
+}
+
+.message {
+  font-size:1.2em;
+  color:red;
+}
+.BODY{
+	margin:5rem;
+	border:1px solid;
+	padding:2rem;
+	font-family:sans-serif;
+
+}
