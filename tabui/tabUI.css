@@ -1,0 +1,52 @@
+img{
+	display: block;
+	margin:auto;
+	width:10%;
+	height:10%;
+}
+header{
+	text-align: center;
+	margin-bottom:5%;
+}
+.userId{font-weight: bold;font-size:2.3em;}
+.userSNSInfo{color:#8F87A2;margin-left:32.5%;}
+.userMessage{color:#8F87A2;}
+
+.userSNSInfo li{
+	list-style-type: none;
+	float:left;
+	margin:0% 2%;
+}
+.count{color:#3AAF41;}
+
+nav{
+	display:flex;
+	height:60px;
+	clear:left;
+	box-sizing:border-box;
+}
+nav>div{
+	box-sizing:border-box;
+	float:left;
+	flex:1;
+	border:1px solid #e0e0e0;
+	text-align: center;
+	padding:18px;
+	font-weight: bold;
+	font-size:1.2em;
+}
+.selectedTab{background-color: #DF9371;}
+.mainView{margin:4%;}
+
+.eleDisplayShow li{
+	list-style-type: none;
+	margin: 5%;
+	font-size:1.2em;
+	line-height:2em;
+}
+.myName{
+	font-weight: bold;
+	font-size:1.8rem;
+}
+#news{border-right:0;}
+#position{border-left:0;}
