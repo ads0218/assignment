@@ -7,6 +7,9 @@ function clickEvt(evt){
 	if(tag.tagName=='SPAN'){
 		tag=tag.parentElement
 	}
+	if(tag.tagName=='NAV'){
+		return;
+	}
 	changeColor(tag);
 	var url=tag.dataset.url;
 	callAjax(url,writeData);
