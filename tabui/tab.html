@@ -17,6 +17,7 @@
                 </div>
                 <div class="userMessage" ><span > </span><span >안녕하세요 크롱입니다</span><span > </span>
                 </div>
+                <div>
                 <ul class="userSNSInfo" >
                     <li ><span >review : </span><span class="count" >10</span><span > | </span>
                     </li>
@@ -25,30 +26,36 @@
                     <li ><span >following : </span><span class="count" ><span >30</span><span > </span></span><span > </span>
                     </li>
                 </ul>
+                </div>
             </header>
             <nav >
-                <div class="tab selectedTab" id="position" data-url='http://jsonplaceholder.typicode.com/posts/1' ><span > </span><span >aboutMe</span><span > </span>
+                <div class="tab selectedTab" id="position" data-url='http://jsonplaceholder.typicode.com/posts/1' data-click=0><span > </span><span >aboutMe</span><span > </span>
                 </div>
-                <div class="tab" id="friend" data-url='http://jsonplaceholder.typicode.com/posts/2' ><span > </span><span >friend</span><span > </span>
+                <div class="tab" id="friend" data-url='http://jsonplaceholder.typicode.com/posts/2' data-click=0><span > </span><span >friend</span><span > </span>
                 </div>
-                <div class="tab" id="theme" data-url='http://jsonplaceholder.typicode.com/posts/3'><span > </span><span >lorem</span><span > </span>
+                <div class="tab" id="theme" data-url='http://jsonplaceholder.typicode.com/posts/3' data-click=0><span > </span><span >lorem</span><span > </span>
                 </div>
-                <div class="tab" id="news" data-url='http://jsonplaceholder.typicode.com/posts/4'><span > </span><span >repository</span><span > </span>
+                <div class="tab" id="news" data-url='http://jsonplaceholder.typicode.com/posts/4' data-click=0><span > </span><span >repository</span><span > </span>
                 </div>
             </nav>
-            <section id="my_position" class="eleDisplayShow" >
-                <ul >
-                    <li >
-                        <div class="myName" >sunt aut facere repellat provident occaecati excepturi optio reprehenderit</div>
-                        <div class="myDesc" >quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto</div>
-                    </li>
-                </ul>
-            </section>
-            <section id="my_friend"> </section>
-            <section id="my_theme" > </section>
-            <section id="my_news"> </section>
+            <div class='sections'>
+                <section id="my_position" class="eleDisplayShow" >
+                    <ul >
+                        <li>
+                            <div class="myName" >sunt aut facere repellat provident occaecati excepturi optio reprehenderit</div>
+                            <div class="myDesc" >quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto</div>
+                        </li>
+                    </ul>
+                </section>
+                <section id="my_friend"> </section>
+                <section id="my_theme" > </section>
+                <section id="my_news"> </section>
+            </div>
         </div>
     </div>
+    <script type="temp" id='temp'>
+        <ul><li><div class='myName'>{{title}}</div><div class='myDesc'>{{body}}</div></li></ul>
+    </script>
     <script src="./tab.js"></script>
 </body>
 </html>

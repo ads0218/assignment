@@ -9,7 +9,7 @@ header{
 	margin-bottom:5%;
 }
 .userId{font-weight: bold;font-size:2.3em;}
-.userSNSInfo{color:#8F87A2;margin-left:32.5%;}
+.userSNSInfo{color:#8F87A2;margin-left:34.5%;}
 .userMessage{color:#8F87A2;}
 
 .userSNSInfo li{
@@ -36,7 +36,7 @@ nav>div{
 	font-weight: bold;
 	font-size:1.2em;
 }
-.selectedTab{background-color: #DF9371;}
+.selectedTab{background-color: #DF9371;color:#fff;}
 .mainView{margin:4%;}
 
 .eleDisplayShow li{
@@ -51,3 +51,10 @@ nav>div{
 }
 #news{border-right:0;}
 #position{border-left:0;}
+
+.sections>section{
+	display:none;
+}
+.eleDisplayShow{
+	display:block!important;
+}
