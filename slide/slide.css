@@ -22,12 +22,13 @@
 	overflow:hidden;
 	width:600px;
 	height:400px;
-	background:blue;
+	background:#999;
 	margin:10% auto 3% auto;
 	position:relative;
 }
 #movingWrap{
 	position:relative;
+	left:-1800px;
 	transition:transform 1s;
 }
 .slide{
@@ -64,4 +65,14 @@
 	width:90px;
 	height:10px;
 	margin:auto;
+}
+.nowIndicater{
+	background-color: #fff;
+	border-radius:5px;
+	border:1px solid #000;
+	width:10px;
+	height:10px;
+	cursor:pointer;
+	position:absolute;
+
 }
