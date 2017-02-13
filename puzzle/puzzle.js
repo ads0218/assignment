@@ -49,7 +49,7 @@ function movePiece(code) {
         num=up.innerHTML;
         space.innerHTML=num;
         up.innerHTML='';
-        changeClass('left',id);
+        changeClass('down',id);
     }
 }
 
