@@ -4,13 +4,18 @@ document.addEventListener('DOMContentLoaded',function(){
 
 var count=0;
 function init(){
+    var button=document.querySelector('#levelInputSubmit');
     document.addEventListener('keydown',function(evt){
         if(evt.keyCode<41&&evt.keyCode>36){
             movePiece(evt.keyCode);
             checkFinish();
         }
+        button.addEventListener('click',function(){
+            var Lv=document.querySelector('#levelInput');
+            Lv=Lv.value;
+            setLevel(Lv);
+        })
     });
-    mixPiece();
     count=0;
 }
 function movePiece(code) {
@@ -23,28 +28,28 @@ function movePiece(code) {
     var num;
     var id=space.id;
     if(code==37){
-        num=left.innerHTML;
-        space.innerHTML=num;
-        left.innerHTML='';
-        changeClass('left',id);
-    }
-    else if(code==38){
-        num=up.innerHTML;
-        space.innerHTML=num;
-        up.innerHTML='';
-        changeClass('up',id);
-    }
-    else if(code==39){
         num=right.innerHTML;
         space.innerHTML=num;
         right.innerHTML='';
-        changeClass('right',id);
+        changeClass('left',id);
     }
-    else if(code==40){
+    else if(code==38){
         num=down.innerHTML;
         space.innerHTML=num;
         down.innerHTML='';
-        changeClass('down',id);
+        changeClass('up',id);
+    }
+    else if(code==39){
+        num=left.innerHTML;
+        space.innerHTML=num;
+        left.innerHTML='';
+        changeClass('right',id);
+    }
+    else if(code==40){
+        num=up.innerHTML;
+        space.innerHTML=num;
+        up.innerHTML='';
+        changeClass('left',id);
     }
 }
 
@@ -99,11 +104,36 @@ function changeClass(direction,id){
     down.classList.toggle('surround');
 
 }
-function mixPiece(){
-    for(var i=0;i<50;i++){
-       var randomCode= Math.floor((Math.random() * 4) +37);
+function setLevel(Lv){
+    document.querySelector('#a11').innerHTML=1;
+    document.querySelector('#a12').innerHTML=2;
+    document.querySelector('#a13').innerHTML=3;
+    document.querySelector('#a14').innerHTML=4;
+    document.querySelector('#a21').innerHTML=5;
+    document.querySelector('#a22').innerHTML=6;
+    document.querySelector('#a23').innerHTML=7;
+    document.querySelector('#a24').innerHTML=8;
+    document.querySelector('#a31').innerHTML=9;
+    document.querySelector('#a32').innerHTML=10;
+    document.querySelector('#a33').innerHTML=11;
+    document.querySelector('#a34').innerHTML=12;
+    document.querySelector('#a41').innerHTML=13;
+    document.querySelector('#a42').innerHTML=14;
+    document.querySelector('#a43').innerHTML=15;
+    document.querySelector('#a44').innerHTML='';
+    changeClass('','a44');
+    mixPiece(Lv);
+}
+function mixPiece(Lv){
+    var preNum=0;
+    var randomCode=0;
+    for(var i=0;i<Lv;i++){
+        while(1) {
+            randomCode = Math.floor((Math.random() * 4) + 37);
+            if (randomCode != preNum)break;
+        }
+        preNum=randomCode;
         movePiece(randomCode);
-        console.log(randomCode);
     }
 }
 function checkFinish(){

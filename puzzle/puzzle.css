@@ -36,6 +36,34 @@
 .surround{
     background-color:#595;
 }
+#level{
+    1border:1px solid black;
+    width:240px;
+    background-color:#ffcdec;
+    border-radius:5px;
+    padding:7px;
+    margin-left:10%;
+    height:43px;
+    font-size:1.9rem;
+}
+#levelInput{
+    float:left;
+    font-size:1.7rem;
+    width:100px;
+    margin:0 5px;
+}
+#levelInputSubmit{
+    float:left;
+    height:35px;
+    width:50px;
+    margin:0px;
+    cursor:pointer;
+    background-color:#aacdec;
+    border-radius:5px;
+}
+#levelTitle{
+    float:left;
+}
 #finish_message{
     font-size:1.5rem;
 }
