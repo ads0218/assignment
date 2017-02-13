@@ -14,9 +14,9 @@ function init(){
             var Lv=document.querySelector('#levelInput');
             Lv=Lv.value;
             setLevel(Lv);
+            count=0;
         })
     });
-    count=0;
 }
 function movePiece(code) {
     count++;

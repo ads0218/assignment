@@ -52,8 +52,8 @@
           <file leaf-file-name="puzzle.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../puzzle/puzzle.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.87905234">
-                  <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.28054863">
+                  <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -62,8 +62,8 @@
           <file leaf-file-name="puzzle.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/puzzle.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-17.245283">
-                  <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
+                <state vertical-scroll-proportion="-4.5283017">
+                  <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -86,8 +86,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/puzzle.html" />
-        <option value="$PROJECT_DIR$/puzzle.js" />
         <option value="$PROJECT_DIR$/puzzle.css" />
+        <option value="$PROJECT_DIR$/puzzle.js" />
         <option value="$PROJECT_DIR$/../puzzle/puzzle.js" />
       </list>
     </option>
@@ -313,14 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/puzzle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.245283">
-          <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/puzzle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.7662337">
@@ -329,10 +321,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/puzzle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5283017">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../puzzle/puzzle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87905234">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.28054863">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
