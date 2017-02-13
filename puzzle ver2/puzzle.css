@@ -1,0 +1,69 @@
+
+.BODY{
+    width:100%;
+    height:100%;
+    padding:0px;
+}
+.wrap{
+    text-align: center;
+}
+.title{
+    font-size:3rem;
+    text-align:center;
+
+}
+.puzzleWindow{
+    margin:auto;
+    width:450px;
+    height:450px;
+    overflow:left;
+    border: 1px solid #000;
+    box-sizing:border-box;
+}
+.piece{
+    float:left;
+    width:25%;
+    height:25%;
+    border:0.7px solid #000;
+    box-sizing:border-box;
+    font-size:2rem;
+    text-align: center;
+    padding:10% 0px;
+}
+.space{
+     background-color:#aaa;
+}
+.surround{
+    background-color:#595;
+}
+#level{
+    1border:1px solid black;
+    width:240px;
+    background-color:#ffcdec;
+    border-radius:5px;
+    padding:7px;
+    margin-left:10%;
+    height:43px;
+    font-size:1.9rem;
+}
+#levelInput{
+    float:left;
+    font-size:1.7rem;
+    width:100px;
+    margin:0 5px;
+}
+#levelInputSubmit{
+    float:left;
+    height:35px;
+    width:50px;
+    margin:0px;
+    cursor:pointer;
+    background-color:#aacdec;
+    border-radius:5px;
+}
+#levelTitle{
+    float:left;
+}
+#finish_message{
+    font-size:1.5rem;
+}
