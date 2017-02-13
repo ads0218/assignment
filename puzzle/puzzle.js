@@ -28,27 +28,27 @@ function movePiece(code) {
     var num;
     var id=space.id;
     if(code==37){
-        num=right.innerHTML;
-        space.innerHTML=num;
-        right.innerHTML='';
-        changeClass('left',id);
-    }
-    else if(code==38){
-        num=down.innerHTML;
-        space.innerHTML=num;
-        down.innerHTML='';
-        changeClass('up',id);
-    }
-    else if(code==39){
         num=left.innerHTML;
         space.innerHTML=num;
         left.innerHTML='';
-        changeClass('right',id);
+        changeClass('left',id);
     }
-    else if(code==40){
+    else if(code==38){
         num=up.innerHTML;
         space.innerHTML=num;
         up.innerHTML='';
+        changeClass('up',id);
+    }
+    else if(code==39){
+        num=right.innerHTML;
+        space.innerHTML=num;
+        right.innerHTML='';
+        changeClass('right',id);
+    }
+    else if(code==40){
+        num=down.innerHTML;
+        space.innerHTML=num;
+        down.innerHTML='';
         changeClass('down',id);
     }
 }
