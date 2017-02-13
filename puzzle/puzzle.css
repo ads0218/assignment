@@ -1,0 +1,41 @@
+
+.BODY{
+    width:100%;
+    height:100%;
+    padding:0px;
+}
+.wrap{
+    text-align: center;
+}
+.title{
+    font-size:3rem;
+    text-align:center;
+
+}
+.puzzleWindow{
+    margin:auto;
+    width:450px;
+    height:450px;
+    overflow:left;
+    border: 1px solid #000;
+    box-sizing:border-box;
+}
+.piece{
+    float:left;
+    width:25%;
+    height:25%;
+    border:0.7px solid #000;
+    box-sizing:border-box;
+    font-size:2rem;
+    text-align: center;
+    padding:10% 0px;
+}
+.space{
+     background-color:#aaa;
+}
+.surround{
+    background-color:#595;
+}
+#finish_message{
+    font-size:1.5rem;
+}
